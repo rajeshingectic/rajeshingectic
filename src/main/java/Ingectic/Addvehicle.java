@@ -8,12 +8,12 @@ public class Addvehicle extends loginb2c{
 	@Test(priority = 2)
 	
 	public void addvehicle() throws InterruptedException
-	{
+	{/*
 		{
 			try {
 				driver.findElement(By.id("myzone-overlay-ymme")).click();
 			      System.out.println("vehicle need to select");
-			    } catch (Exception e) {
+			    } catch (Exception e)*/ {
 			    	driver.findElement(By.xpath("//a[@class='showDropDown']")).click();
 			    	driver.findElement(By.id("myzone-overlay-ymme")).click();
 			    	
@@ -30,9 +30,6 @@ public class Addvehicle extends loginb2c{
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@class='button button-ie8']")).click();
 		Thread.sleep(3000);
-		
-						
-			
 	}
 
-	}}
+	}
