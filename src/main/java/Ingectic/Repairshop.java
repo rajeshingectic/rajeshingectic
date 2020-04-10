@@ -13,5 +13,6 @@ public class Repairshop extends URLB2C{
 		driver.findElement(By.xpath("//input[@id='txtZip']")).sendKeys("11002");
 		driver.findElement(By.xpath("//a[@class='noBorder btnFindaShop']")).click();
 		Thread.sleep(6000);
+		System.out.println("Search result is getting displayed");
 	}
 }

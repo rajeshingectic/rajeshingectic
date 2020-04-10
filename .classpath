@@ -31,5 +31,7 @@
 	<classpathentry kind="lib" path="D:/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/testng-7.1.0.jar"/>
 	<classpathentry kind="lib" path="D:/selenium-java-3.141.59/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/jar_files.zip"/>
+	<classpathentry kind="lib" path="D:/extentreports-2.40.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
