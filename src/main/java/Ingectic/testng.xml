@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite1">
+   <test name = "test1">
+    <classes>
+        <class name= "Ingectic.URLB2C"/>
+			
+      </classes>  
+   </test>
+         <test name = "test2">
+   <classes>
+       			
+			<class name= "Ingectic.Repairshop"/>
+       
+        </classes>
+   </test>
+     <test name = "test3">
+   <classes>
+       		<class name= "Ingectic.Deals"/>
+			      
+        </classes>
+   </test>  
+   <test name = "test4">
+   <classes>
+       <class name= "Ingectic.loginb2c"/>
+			       
+        </classes>
+   </test>
+    <test name = "test5">
+   <classes>
+      			<class name= "Ingectic.Addvehicle"/>
+	 
+       </classes>
+   </test>
+   <test name = "test6">
+   <classes>
+       			<class name= "Ingectic.search"/>
+	</classes>
+   </test>
+ 
+   <test name = "test7">
+   <classes>
+       			
+			<class name= "Ingectic.Addtocart"/>
+			</classes>
+   </test>
+
+   <test name = "test8">
+   <classes>
+       			
+			<class name= "Ingectic.Rewardsbox"/>
+       
+        </classes>
+   </test>
+   <test name = "test9">
+   <classes>
+       			
+			<class name= "Ingectic.Topnavmouseover"/>
+       
+        </classes>
+   </test>
+    <test name = "test10">
+   <classes>
+       			
+			<class name= "Ingectic.Productdetails"/>
+       
+        </classes>
+   </test>
+</suite>  	

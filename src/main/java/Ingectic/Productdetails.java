@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Productdetails extends loginb2c {
 	@Test(priority = 2)
-	public void autoparts() throws InterruptedException
+	public void productdetails() throws InterruptedException
 	{
 		Actions action= new Actions(driver);
 		WebElement mainNav = driver.findElement(By.xpath("//a[@class=\"mainNavLink mainNavLink-0\"]"));

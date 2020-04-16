@@ -33,5 +33,6 @@
 	<classpathentry kind="lib" path="D:/selenium-java-3.141.59/guice-3.0.jar"/>
 	<classpathentry kind="lib" path="D:/jar_files.zip"/>
 	<classpathentry kind="lib" path="D:/extentreports-2.40.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
