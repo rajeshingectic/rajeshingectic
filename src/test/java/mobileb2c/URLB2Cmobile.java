@@ -18,7 +18,7 @@ public class URLB2Cmobile {
 	//@Test
 	public void launchBrowser() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\git\\rajeshingectic\\src\\main\\java\\Ingectic\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\git\\rajeshingectic\\src\\test\\java\\Ingectic\\chromedriver.exe");
 		//driver = new ChromeDriver();
 		
 		/*driver.get("https://m.autozone.com/");

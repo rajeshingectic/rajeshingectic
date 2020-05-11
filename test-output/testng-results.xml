@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-28T15:15:20Z" name="Default suite" finished-at="2020-04-28T15:19:24Z" duration-ms="244222">
+  <suite started-at="2020-05-11T06:53:23Z" name="Default suite" finished-at="2020-05-11T06:54:13Z" duration-ms="50598">
     <groups>
     </groups>
-    <test started-at="2020-04-28T15:15:20Z" name="Default test" finished-at="2020-04-28T15:19:24Z" duration-ms="244222">
-      <class name="com.experitest.auto1.Couponcodemobile">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.experitest.auto1.Couponcodemobile@6f204a1a]" started-at="2020-04-28T20:45:20Z" name="setUp" finished-at="2020-04-28T20:46:02Z" duration-ms="41701" status="PASS">
+    <test started-at="2020-05-11T06:53:23Z" name="Default test" finished-at="2020-05-11T06:54:13Z" duration-ms="50598">
+      <class name="Ingectic.Addtocart">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Ingectic.Addtocart@72bc6553]" started-at="2020-05-11T12:23:23Z" name="launchBrowser" finished-at="2020-05-11T12:23:32Z" duration-ms="9294" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="URLB2C()[pri:0, instance:com.experitest.auto1.Couponcodemobile@6f204a1a]" started-at="2020-04-28T20:46:02Z" name="URLB2C" finished-at="2020-04-28T20:46:26Z" duration-ms="24414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- URLB2C -->
-        <test-method signature="login()[pri:1, instance:com.experitest.auto1.Couponcodemobile@6f204a1a]" started-at="2020-04-28T20:46:26Z" name="login" finished-at="2020-04-28T20:47:36Z" duration-ms="69769" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login()[pri:1, instance:Ingectic.Addtocart@72bc6553]" started-at="2020-05-11T12:23:32Z" name="login" finished-at="2020-05-11T12:23:42Z" duration-ms="9949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="couponcodemobile()[pri:2, instance:com.experitest.auto1.Couponcodemobile@6f204a1a]" started-at="2020-04-28T20:47:36Z" name="couponcodemobile" finished-at="2020-04-28T20:49:00Z" duration-ms="84292" status="PASS">
+        <test-method signature="addtocart()[pri:2, instance:Ingectic.Addtocart@72bc6553]" started-at="2020-05-11T12:23:42Z" name="addtocart" finished-at="2020-05-11T12:24:11Z" duration-ms="28931" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- couponcodemobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.experitest.auto1.Couponcodemobile@6f204a1a]" started-at="2020-04-28T20:49:00Z" name="tearDown" finished-at="2020-04-28T20:49:24Z" duration-ms="24014" status="PASS">
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Ingectic.Addtocart@72bc6553]" started-at="2020-05-11T12:24:11Z" name="teardown" finished-at="2020-05-11T12:24:13Z" duration-ms="2403" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.experitest.auto1.Couponcodemobile -->
+        </test-method> <!-- teardown -->
+      </class> <!-- Ingectic.Addtocart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
