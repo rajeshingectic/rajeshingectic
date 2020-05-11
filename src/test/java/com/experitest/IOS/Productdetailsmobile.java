@@ -1,9 +1,9 @@
-package com.experitest.auto;
+package com.experitest.IOS;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class Productdetailsmobile extends AndroidDemoTest {
+public class Productdetailsmobile extends IOSDemoTest {
 	@Test(priority = 1)
 	public void productdetailsmobile() throws InterruptedException
 	{

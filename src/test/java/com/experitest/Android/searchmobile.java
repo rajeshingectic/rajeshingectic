@@ -1,4 +1,4 @@
-package com.experitest.auto1;
+package com.experitest.Android;
 
 import java.util.concurrent.TimeUnit;
 

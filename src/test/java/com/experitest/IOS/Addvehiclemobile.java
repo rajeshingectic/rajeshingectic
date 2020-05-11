@@ -1,4 +1,4 @@
-package com.experitest.auto1;
+package com.experitest.IOS;
 
 import java.util.concurrent.TimeUnit;
 

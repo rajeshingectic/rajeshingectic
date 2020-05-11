@@ -1,4 +1,4 @@
-package com.experitest.auto;
+package com.experitest.Android;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileBrowserType;

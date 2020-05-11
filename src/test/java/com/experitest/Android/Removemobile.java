@@ -1,14 +1,12 @@
-package com.experitest.auto1;
-
-import java.util.concurrent.TimeUnit;
+package com.experitest.Android;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class Addtocartmobile extends loginmobile{
+public class Removemobile extends loginmobile{
 	@Test(priority = 2)
-	public void addtocartmobile() throws InterruptedException
-	{driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	public void removemobile() throws InterruptedException
+	{
 		driver.findElement(By.linkText("Shop")).click();
 		
 		driver.findElement(By.xpath("//*[@id='productList']//li[1]")).click();	
@@ -17,8 +15,8 @@ public class Addtocartmobile extends loginmobile{
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id='productList']//li[15]")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//*[@id='productList']//a")).click();
-
+		driver.findElement(By.xpath("//*[@id=\"productList\"]//a")).click();
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id='pageHeader' and contains(text(),'Wiper Blade (Windshield)')]")).isDisplayed();
 		System.out.println("User in Wiper blade Result page");
 		driver.findElement(By.xpath("//a[@class='button small availableAll cartPopup']")).click();
@@ -31,6 +29,12 @@ public class Addtocartmobile extends loginmobile{
 			}else {
 				System.out.println("Product is not added in cart page");
 			}
+		driver.findElement(By.linkText("Remove")).click();
+		Thread.sleep(3000);
+		if(driver.findElement(By.xpath("//*[contains(text(),'There are no items in your cart.')]")).isDisplayed()){
+			System.out.println("Added Product is removed from cart page");
+		}else {
+			System.out.println("Product is getting displayed in cart page");
+		}
 }
 }
-

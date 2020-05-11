@@ -1,4 +1,4 @@
-package com.experitest.auto;
+package com.experitest.Android;
 
 import java.io.File;
 import java.io.FileNotFoundException;

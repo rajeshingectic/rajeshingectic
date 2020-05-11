@@ -1,4 +1,4 @@
-package com.experitest.auto1;
+package com.experitest.IOS;
 
 import java.net.MalformedURLException;
 import java.net.URL;

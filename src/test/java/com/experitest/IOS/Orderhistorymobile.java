@@ -1,4 +1,4 @@
-package com.experitest.auto;
+package com.experitest.IOS;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
