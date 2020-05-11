@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mobile]" guice-stage="DEVELOPMENT">
+  <test name="Addtocartmobile(failed)">
+    <classes>
+      <class name="mobileb2c.Removemobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Removemobile -->
+      <class name="mobileb2c.DealsMobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.DealsMobile -->
+      <class name="mobileb2c.URLB2Cmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.URLB2Cmobile -->
+      <class name="mobileb2c.Couponcodemobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Couponcodemobile -->
+      <class name="mobileb2c.loginmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.loginmobile -->
+      <class name="mobileb2c.searchmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.searchmobile -->
+      <class name="mobileb2c.Addvehiclemobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Addvehiclemobile -->
+      <class name="mobileb2c.Orderhistorymobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Orderhistorymobile -->
+      <class name="mobileb2c.Productdetailsmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Productdetailsmobile -->
+      <class name="mobileb2c.Addtocartmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+          <include name="addtocartmobile"/>
+        </methods>
+      </class> <!-- mobileb2c.Addtocartmobile -->
+    </classes>
+  </test> <!-- Addtocartmobile(failed) -->
+  <test name="Removemobile(failed)">
+    <classes>
+      <class name="mobileb2c.Removemobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+          <include name="removemobile"/>
+        </methods>
+      </class> <!-- mobileb2c.Removemobile -->
+      <class name="mobileb2c.DealsMobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.DealsMobile -->
+      <class name="mobileb2c.URLB2Cmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.URLB2Cmobile -->
+      <class name="mobileb2c.Couponcodemobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Couponcodemobile -->
+      <class name="mobileb2c.loginmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.loginmobile -->
+      <class name="mobileb2c.searchmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.searchmobile -->
+      <class name="mobileb2c.Addvehiclemobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Addvehiclemobile -->
+      <class name="mobileb2c.Orderhistorymobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Orderhistorymobile -->
+      <class name="mobileb2c.Productdetailsmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Productdetailsmobile -->
+      <class name="mobileb2c.Addtocartmobile">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- mobileb2c.Addtocartmobile -->
+    </classes>
+  </test> <!-- Removemobile(failed) -->
+</suite> <!-- Failed suite [Mobile] -->

@@ -14,11 +14,11 @@ import org.testng.annotations.Test;
 public class URLB2Cmobile {
 
 	public static WebDriver driver;
-	//@BeforeTest
-	@Test
+	@BeforeTest
+	//@Test
 	public void launchBrowser() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\git\\rajeshingectic\\src\\Ingectic\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\git\\rajeshingectic\\src\\main\\java\\Ingectic\\chromedriver.exe");
 		//driver = new ChromeDriver();
 		
 		/*driver.get("https://m.autozone.com/");
@@ -45,6 +45,6 @@ public class URLB2Cmobile {
 
 @AfterTest
 public void teardown() {
-	driver.quit();
+	driver.close();
 }
 }

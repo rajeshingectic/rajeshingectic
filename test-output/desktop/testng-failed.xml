@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [desktop]" guice-stage="DEVELOPMENT">
+  <test name="Rewardsbox(failed)">
+    <classes>
+      <class name="Ingectic.Addtocart">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.Addtocart -->
+      <class name="Ingectic.Productdetails">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.Productdetails -->
+      <class name="Ingectic.URLB2C">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.URLB2C -->
+      <class name="Ingectic.search">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.search -->
+      <class name="Ingectic.Repairshop">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.Repairshop -->
+      <class name="Ingectic.loginb2c">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.loginb2c -->
+      <class name="Ingectic.Deals">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.Deals -->
+      <class name="Ingectic.Rewardsbox">
+        <methods>
+          <include name="autoparts"/>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.Rewardsbox -->
+      <class name="Ingectic.Topnavmouseover">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.Topnavmouseover -->
+      <class name="Ingectic.Addvehicle">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Ingectic.Addvehicle -->
+    </classes>
+  </test> <!-- Rewardsbox(failed) -->
+</suite> <!-- Failed suite [desktop] -->

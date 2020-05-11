@@ -15,7 +15,7 @@ public class URLB2C {
 	
 	public void launchBrowser() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\git\\rajeshingectic\\src\\Ingectic\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\git\\rajeshingectic\\src\\main\\java\\Ingectic\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

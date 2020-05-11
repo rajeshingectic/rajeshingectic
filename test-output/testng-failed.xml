@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="test5(failed)">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="mobileb2c.Addtocartmobile">
+      <class name="com.experitest.auto1.Couponcodemobile">
         <methods>
-          <include name="teardown"/>
-          <include name="launchBrowser"/>
-          <include name="login"/>
-          <include name="addtocartmobile"/>
+          <include name="couponcodemobile"/>
+          <include name="URLB2C"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- mobileb2c.Addtocartmobile -->
+      </class> <!-- com.experitest.auto1.Couponcodemobile -->
     </classes>
-  </test> <!-- test5(failed) -->
-  <test thread-count="5" name="test7(failed)">
-    <classes>
-      <class name="mobileb2c.Removemobile">
-        <methods>
-          <include name="teardown"/>
-          <include name="removemobile"/>
-        </methods>
-      </class> <!-- mobileb2c.Removemobile -->
-    </classes>
-  </test> <!-- test7(failed) -->
-</suite> <!-- Failed suite [Suite1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

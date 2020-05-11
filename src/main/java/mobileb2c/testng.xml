@@ -1,64 +1,64 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Suite1">
-   <test name = "test1">
+<suite name = "Mobile">
+   <test name = "URLB2Cmobile">
     <classes>
         <class name= "mobileb2c.URLB2Cmobile"/>
 			
       </classes>
        
    </test>
-   <test name = "test2">
+   <test name = "loginmobile">
    <classes>
        <class name= "mobileb2c.loginmobile"/>
 			       
         </classes>
    </test>
-    <test name = "test3">
+    <test name = "Addvehiclemobile">
    <classes>
       			<class name= "mobileb2c.Addvehiclemobile"/>
 	 
        </classes>
    </test>
-   <test name = "test4">
+   <test name = "searchmobile">
    <classes>
        			<class name= "mobileb2c.searchmobile"/>
 	</classes>
    </test>
-   <test name = "test5">
+   <test name = "Addtocartmobile">
    <classes>
        		<class name= "mobileb2c.Addtocartmobile"/>
 			      
         </classes>
    </test>
-   <test name = "test6">
+   <test name = "Couponcodemobile">
    <classes>
        			
 			<class name= "mobileb2c.Couponcodemobile"/>
 			</classes>
    </test>
-   <test name = "test7">
+   <test name = "Removemobile">
    <classes>
        			
 			<class name= "mobileb2c.Removemobile"/>
        
         </classes>
    </test>
-   <test name = "test8">
+   <test name = "Orderhistorymobile">
    <classes>
        			
 			<class name= "mobileb2c.Orderhistorymobile"/>
        
         </classes>
    </test>
-   <test name = "test9">
+   <test name = "Productdetailsmobile">
    <classes>
        			
 			<class name= "mobileb2c.Productdetailsmobile"/>
        
         </classes>
    </test>
-    <test name = "test10">
+    <test name = "DealsMobile">
    <classes>
        			
 			<class name= "mobileb2c.DealsMobile"/>
